@@ -1,4 +1,5 @@
 {
   "java.home":
-  "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"
+  "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+  "java.help.shareDiagnostics": true
 }
