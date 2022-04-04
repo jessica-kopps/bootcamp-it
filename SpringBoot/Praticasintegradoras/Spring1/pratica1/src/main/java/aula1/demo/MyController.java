@@ -10,17 +10,17 @@ import javax.websocket.server.PathParam;
 @Controller
 public class MyController {
 
-        public int[] valores = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
-        public String[] letras = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+        public int[] VALORES = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+        public String[] LETRAS = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
 
         @GetMapping("{number}")
         public String roman(@PathVariable int number) {
             String romano = "";
-            for (int i = 0; i < valores.length; i++) {
+            for (int i = 0; i < VALORES.length; i++) {
                 while (number >= valores[i]) {
-                    number -= valores[i];
-                    romano += letras[i];
+                    number -= VALORES[i];
+                    romano += LETRAS[i];
                 }
             }
             return romano;

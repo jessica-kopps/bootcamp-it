@@ -11,3 +11,4 @@ public class Anuncio {
 
     private String titulo;
     private double valor;
+}

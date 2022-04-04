@@ -7,10 +7,10 @@ import java.util.*;
 
 @Service
 public class MyService {
-    private static final String[] character =
+    private static final String[] CHARACTER =
             {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V"
                     , "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "?", "!", ".", ","};
-    private static final String[] morse =
+    private static final String[] MORSE =
             {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".----", "-.-", ".-..", "--", "-.", "---"
                     , ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--..", ".----"
                     , "..---", "...--", "....-", ".....", "-....", "--...", "---..", "----.", "-----",
@@ -25,10 +25,10 @@ public class MyService {
             if (chars.get(i).equals("") && chars.get(i-1).equals("")) {
                 resultado.append(" ");
             }
-            for(int j = 0; j < character.length; j++) {
+            for(int j = 0; j < CHARACTER.length; j++) {
                 //System.out.println(chars.get(i) + " ... " + CHARACTER[j]);
-                if (chars.get(i).toUpperCase().equals(morse[j])) {
-                    resultado.append(character[j]);
+                if (chars.get(i).toUpperCase().equals(MORSE[j])) {
+                    resultado.append(CHARACTER[j]);
                 }
             }
         }
