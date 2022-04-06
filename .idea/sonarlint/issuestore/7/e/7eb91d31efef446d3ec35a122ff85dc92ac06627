@@ -1,0 +1,11 @@
+
+n	java:S116"RRename this field "VALORES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¯ë­8£©è°ÿ/
+m	java:S116"QRename this field "LETRAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈŸø 8¡¦é°ÿ/
+Q	java:S125"<This block of commented-out lines of code should be removed.(ïù¥Ñ
+>
+java:S1643"Use a StringBuilder instead.(³ŸÎ«ıÿÿÿÿ8Ûİé°ÿ/
+p
+java:S1104"SMake VALORES a static final constant or non-public and provide accessors if needed.(ƒ¯ë­8¯©è°ÿ/
+o
+java:S1104"RMake LETRAS a static final constant or non-public and provide accessors if needed.(ÈŸø 8©¦é°ÿ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆûóıÿÿÿÿ

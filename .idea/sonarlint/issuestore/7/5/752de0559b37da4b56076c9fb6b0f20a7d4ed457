@@ -1,0 +1,7 @@
+
+U
+java:S1118	":Add a private constructor to hide the implicit public one.(¿á¼ôùÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ó©Œãúÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğ•ˆÂùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ¯êò
